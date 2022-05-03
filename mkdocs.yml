@@ -1,0 +1,27 @@
+site_name: NamelessMC Docs
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra:
+  alternate:
+    - name: Czech
+      link: /cs/
+      lang: cs
+    - name: English
+      link: /en/
+      lang: en
+    - name: Russian
+      link: /ru/
+      lang: ru
+    - name: Spanish
+      link: /es/
+      lang: es
+nav:
+  - Home: en/index.md
